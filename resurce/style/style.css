@@ -1,0 +1,92 @@
+body{
+	font-family: Raleway, serif;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.nav-item img{
+	width: 50px;
+}
+
+.nav-link{
+	color: black;
+	font-size: 22px;
+}
+
+.text-center img{
+	width: 60px;
+}
+
+.nav-panel{
+	padding-left: 20px;
+	background-color: #ff00f7;
+}
+
+.main-name-icon{ 
+	margin-inline: 0px;
+	margin-bottom: 2em;
+	background: linear-gradient(180deg, #ff00f7 0%, #ffffff 100%);
+	padding: 80px;
+	padding-bottom: 200px;
+	background-color: antiquewhite;
+}
+
+
+
+.btn-outline-danger{
+	margin: 2px;
+}
+
+.sim{
+	font-size: 2rem;
+}
+
+.form-control{
+	font-size: 20px;
+}
+
+.list-group-item{
+	font-size: 2rem;
+}
+
+.list-group{
+	margin-top: 30px;
+}
+
+
+.pagination{
+	margin-top: 10px;
+}
+
+.size{
+	padding: 0px;
+}
+
+.insert{
+	width: 30px;
+}
+
+.ins{
+	border: none;
+}
+
+.main-panel{
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+@media(max-width: 330px)
+{
+	.nav-item img{
+		width: 50px;
+	}
+	.nav-link{
+		font-size: 14px;
+	}	
+	.sim{
+		font-size: 1.5rem;
+	}
+}
