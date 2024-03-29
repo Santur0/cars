@@ -1,0 +1,20 @@
+body{
+	padding-inline: 20px;
+}
+
+.image-logo{
+	width:70px;
+	border-radius: 10px;
+}
+
+.choose-car{
+	padding-inline: 100px;
+}
+
+.footer-{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	background-color: rgb(192, 192, 192);
+}
