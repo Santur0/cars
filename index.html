@@ -1,46 +1,464 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Главная - Avto</title>
-
-
 	<link rel="apple-touch-icon" sizes="180x180" href="resurce/icon//apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="resurce/icon//favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="resurce/icon//favicon-16x16.png">
 	<link rel="manifest" href="resurce/icon//site.webmanifest">
-
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	<link rel="stylesheet" href="resurce/style/main_style.css">
 </head>
+
 <body>
-
 	<header>
-	<nav class="navbar navbar-expand-lg bg-body-tertiary">
-		<div class="container-fluid">
-
-			<a class="navbar-brand" href="#">
-				<img src="resurce/logo/logo.png" alt="Logo" class="image-logo" class="d-inline-block align-text-top">
-			</a>
-			<a class="navbar-brand" href="#">Главная</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-				<div class="navbar-nav">
-					<a class="nav-link" href="#">Автомобили</a>
-					<a class="nav-link" href="#">Мотоциклы</a>
-					<a class="nav-link" href="#">Запчасти</a>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="resurce/logo/logo.png" alt="Logo" class="image-logo" class="d-inline-block align-text-top">
+				</a>
+				<a class="navbar-brand" href="#">Главная</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link" href="cars.html">Автомобили</a>
+						<a class="nav-link" href="#">Мотоциклы</a>
+						<a class="nav-link" href="#">Запчасти</a>
+					</div>
 				</div>
 			</div>
-		</div>
-	</nav>
-</header>
-		<footer class="footer-">
-			<p >©2024</p>
-		</footer>
+		</nav>
+	</header>
+	<div class="conteiner-fluid">
+		<div class="row">
+			<div class="col-1"></div>
+			<div class="col-10">
+				<h2 style=" padding-left: 20px; margin-top: 10px; margin-bottom: 10px;">Продажа Автомобилей в Росии</h2>
+				<h4 style=" padding-left: 20px; margin-top: 10px; margin-bottom: 10px;">Рекомендации</h4>
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+				<div class="card" style="width: 18rem;">
+					<div id="carouselExampleAutoplaying1" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="https://s1.auto.drom.ru/photo/i23wHobBZZ9aWKtWiN4350tGahMHVVUI05jxZp527XFRhTLIOax99BOBUEQ6SImsSF-GdqHaY0B5JqxL_-56M0r4IT4y.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/K8vheCp8joK75ha6NFNHnMYz0bXtJGO_9zdQpp-_u9rMOpVVXbWRAn_psMr4rL8zrCqCATCp4_HdHlB2iLCGbY9SA1Le.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/c4SA7IP1jkxyKQ49CJTU7cjUwKXyu3KfrBUiPcqFoZXxO20IAAGzClyYYlxms93yAAxG_rtR1ozmWr2e8tZF-E_OKnrC.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying1"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying1"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Продажа Mercedes-Benz S-Class, 1998 год в Ялте</h5>
+						<h4>1.300.000₽</h4>
+						<p class="card-text">торг у капота</p>
+						<a href="#" class="btn btn-primary">Купить</a>
+					</div>
+				</div>
+
+
+				<div class="card" style="width: 18rem;">
+					<div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="https://s1.auto.drom.ru/photo/fJMIqBxpD1lX2LcPIUZrNlI1fLJJTob_Vh7Qm-6diaexofTay3uDpBvUUCtf9lVvE6J_tA8i2IF56VWvSL_iIunupLFnVL0J.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/uXuJ22djCkdyD081ppiQIEn3Hm88LdV8wuwqO7IIRonG7knm3xAMQCWeLcV1sfngJolTUy60OOSJDYFtdpKud4XtEgZ4N5gR.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/k5wQd89u9tF6Md9fLaDeAqnS37nTUaseA0xSNJ6u-DfXppR1w716sIzCVSc9t1oRlentPaLANYV2ASojbwmwD3KlKJtGnJ5p.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Продажа BMW X6, 2012 год в Санкт-Петербурге</h5>
+						<h4>3 059 000 ₽</h4>
+						<p class="card-text">Данный автомобиль только...</p>
+						<a href="#" class="btn btn-primary">Купить</a>
+					</div>
+				</div>
+
+
+
+				
+
+				<div class="card" style="width: 18rem;">
+					<div id="carouselExampleAutoplaying3" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="https://s1.auto.drom.ru/photo/azKPyWy0m5PnBR52t_i5ypbIAlUTIgAtpl9i3yeNjrrx9ME5olVYuHrV4wZAY0JNVOI9EENdrHHImpTJnVno7kkywpa5aRfb.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/yn8rnUhLt5Wyc4JEoszwGmybqC2UjFexG0R6q6N74z0VSoSHRUOSiZks9ai-XjLeaH_E9corukpV3TQM5tO3GYnmCHD-eC1X.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/XbMiBGnYrcVajo2WgwswriyuIhLwca3XNZXFb5HJpVZ4YGFhNFbflVQhyt-DCC5rJcMiZpDedANX7XPkcANs5WMgjG_O4mLJ.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying3"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying3"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Продажа Лада 21099, 2007 год в Керчи</h5>
+						<h4>350 000 ₽</h4>
+						<p class="card-text">автомобиль на полном ходу.</p>
+						<a href="#" class="btn btn-primary">Купить</a>
+					</div>
+				</div>
+
+
+				<div class="card" style="width: 18rem;">
+					<div id="carouselExampleAutoplaying4" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="https://s1.auto.drom.ru/photo/UxUYbgj2-1_jtCDfIoZVOJ8NxqE_1yLnE4HZbUdQe7ODXilBZ3LTV4J8klX79-4gHGkf9QbprCS2NTmxGFWXNXBc0i8iFi5o.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/9r9V3q--yRLVls7781OxCA3BLghsi4Z9bWeX6d9XVPAXFz0Yfg1hC3vz57_rxPzT1PMQLeSiS07y8xvmqf1wEAMKV7hu2Gzr.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/ece1Taa56YOr7R8MfOyhuMfNEO9AA-46jOjyLkGszKg8kjKIbMJo5yFx-fd4_JEghWnOEKqSADHw4Z5fCvRwGTfm1zX-bxgM.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying4"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying4"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Продажа Toyota Crown Majesta, 1997 год в Томске</h5>
+						<h4>780 000 ₽</h4>
+						<p class="card-text">Хорошее состояние.</p>
+						<a href="#" class="btn btn-primary">Купить</a>
+					</div>
+				</div>
+
+
+
+				<div class="card" style="width: 18rem;">
+					<div id="carouselExampleAutoplaying5" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="https://s1.auto.drom.ru/photo/2-XY9uzC9HSfkuNjFqYJXdOH61UVr6EJYW_guqeMRo4DA1Ru3CGFq3LCenv-6Pi7Jhr9mMs05IRX0qezp-bzhj9yNDGzziza.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/SCKJkvnjrvEckft_yT0vrpNT-UXXMAoRnmc-b4WQC4bZn--JpS_5StCoIc_oZdK00PzjqZK6JbZbc6UDCHcofRIx1NBnPNgu.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/34RXiSlY5wz8kvoTYkKhshOVI_Bd3oNdfICfjDV9T_5wyOUlDo6gtmCyu82dHtktJ1qy3rbhH3fzyy2iibzkjcI3tVx1CA0S.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying5"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying5"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Продажа Toyota Mark II, 1998 год в Белогорске</h5>
+						<h4>620 000 ₽</h4>
+						<p class="card-text">В хорошем состоянии!</p>
+						<a href="#" class="btn btn-primary">Купить</a>
+					</div>
+				</div>
+
+
+
+				<div class="card" style="width: 18rem;">
+					<div id="carouselExampleAutoplaying6" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="https://s1.auto.drom.ru/photo/PR89iqqyPTXbDxBEDBz5eyMDqEyCuq_aBFWDUdAYSmBrM-Zjimyd97Excq1nUJeN0QGhrzGhS1TN71K_L4iwyuvGpobkVtMY.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/7Vy-UKwo6QmD8K0oOQ-VXU3j2ACxO5Z1Cxls97TM9N64fAxG6w976iUd0dnfr9Kd2ArnvU4oUK7cx7QkG7GB-Rc8wTHNY1dV.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/G3d1WtHUFecDFLmsy3zJzgeWVxvnLajQacXooJgjn6eqB4Nu0RTZbaqnvmtnUqtfFqsTkhvVkDoRwjNyM_udmoBxoXdA8BQo.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying6"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying6"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Продажа Toyota Kluger V, 2001 год в Уссурийске</h5>
+						<h4>1 185 000 ₽</h4>
+						<p class="card-text">Птс оригинал, я третий хозяин!</p>
+						<a href="#" class="btn btn-primary">Купить</a>
+					</div>
+				</div>
+
+
+
+				<div class="card" style="width: 18rem;">
+					<div id="carouselExampleAutoplaying7" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="https://s1.auto.drom.ru/photo/wKiz0EtHbMJFVHkhPAltM7EKqaH-sNXaYbED158xvEwLk74iHZUbXUPLx9GioGAG8QFI8Z4ksB97McZyaHxH2kTCdmdU8l71.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/HQiMMUonl2XzYqgoSr3zE22nlhL_gqbdGrt2llP9oxjtW37vyIxJWKdcZG3l_pX4RhmiHtMcfdBE179PIyeH7AU0NDPtnFA8.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/brwg2CndBUMj_SxCNPP0xKIGXvpX48g14bSvmZqg6wgz-b9ueV3pYgiWHyNY9qfd-qHOD6y0-_RzE3kdVKVCUDoUcnRUj58O.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying7"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying7"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Продажа Лада 4x4 2121 Нива, 2019 год в Перми</h5>
+						<h4>777 000 ₽</h4>
+						<p class="card-text">Скидка при обмене.</p>
+						<a href="#" class="btn btn-primary">Купить</a>
+					</div>
+				</div>
+
+
+
+				<div class="card" style="width: 18rem;">
+					<div id="carouselExampleAutoplaying8" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="https://s1.auto.drom.ru/photo/LrxjH_TySwd2CjI8fS9J0Wi_oV9G87R8Tv4RF16-M4CytGRRy1B6Vg4PkbEQ-tDu_FZYUeL8bgrwKoFJSEWFObZmXpAW9pRY.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/5ffjcGmZjAK4oJHO04HMYTonV5yqt-YZ7KP0EYXLW657Jx4sCCI4d3MWG9m5abiMF1T2cBhEOhRJHrSbyX8chTL13tQR0e5u.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/ZQ5Pl4x8CfKKWVVMNB09deZfgnIu8XbW4pjbgXy5Iq24Y3n8p7XHFGgB65xUPg0hIJnBUlmPMsd8-eMEXdF4oCoZXhy57lkL.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying8"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying8"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Продажа BMW X4, 2021 год в Санкт-Петербурге</h5>
+						<h4>6 799 000 ₽</h4>
+						<p class="card-text">Достойное состояние.</p>
+						<a href="#" class="btn btn-primary">Купить</a>
+					</div>
+				</div>
+
+
+
+				<div class="card" style="width: 18rem;">
+					<div id="carouselExampleAutoplaying9" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="https://s1.auto.drom.ru/photo/QyQEmbbPoNQw438obEgfhBxy_fOreSzjDYUv3VgTp-Kk8Rx0IUbMeEkf3RkwPBN8iqCdZSgHxRszd-fWQcvmhIRft4I6jG0c.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/Gn9IT7iudDzJdeCLJcaNiSApYrqsIEeR5TqaUz0C6L0OulEUKedwhWXUXgk8JMmoxcqIUyurylv9L4Jm89G77ECe-jknkj3V.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/NLVQ68Ied_DluUnZYlC_PqbHqais0eOrGTrBXhWMPz-oLs-EG3cCg6Q6bLjGe-Dv6XxYLBbcbVmX34_Z_DQHTr2KCnItGler.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying9"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying9"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Продажа Лада Калина, 2009 год в Тюмени</h5>
+						<h4>280 000 ₽</h4>
+						<p class="card-text">В хорошем состоянии.</p>
+						<a href="#" class="btn btn-primary">Купить</a>
+					</div>
+				</div>
+
+
+
+				<div class="card" style="width: 18rem;">
+					<div id="carouselExampleAutoplaying10" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="https://s1.auto.drom.ru/photo/liViscB7qGB75lCPR9Xpf3m5ftFrIHTJEbX7aVjAff-KhAZnO_usOM8JkWEI9q88cAnze6WNML-7r1UWrNTqgasR3sDBNA.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/tNDWcco7CbbKL65a1Yf1w6Qh8DwS1odVvubfZaveBze1vBdHbKgqNq6eEIDxZdNf19_rktuEPaOcg7SVf_FG-0XOZwqBBQ.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://s1.auto.drom.ru/photo/_BEPnGOXHhg5U8NY6IPMstnPfcvPRYe-rWZeEe0OSGG4YLtrbb1bx2c6eRTtnfA92t_u_i4IGYpm2eSnRL3j9ODT7S_eVA.jpg"
+									class="img-carusel" class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying10"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying10"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Продажа Mazda Axela, 2010 год в Иркутске</h5>
+						<h4>938 000 ₽</h4>
+						<p class="card-text">Один хозяин !</p>
+						<a href="#" class="btn btn-primary">Купить</a>
+					</div>
+				</div>
+
+
+				
+				</div>
+			</div>
+			<div class="col1"></div>
+		</div>
+	</div>
+
+
+	<footer class="footer-">
+		<p>©2024</p>
+	</footer>
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>

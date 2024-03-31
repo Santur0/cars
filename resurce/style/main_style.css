@@ -7,14 +7,105 @@ body{
 	border-radius: 10px;
 }
 
+.choose-car>h2{
+	text-shadow: 1px 1px 3px rgb(78, 78, 78);
+}
+
 .choose-car{
+	display: flex;
+	background-color: rgb(245, 245, 245);
 	padding-inline: 100px;
 }
 
+.choose-car>select{
+	margin-inline: 8px;
+}
+
+.card{
+	margin: 5px;
+	display: inline-block;
+}
+
+.img-carusel{
+	  width: 271px;
+    height: 205px;
+}
+
 .footer-{
+	margin-top: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100px;
 	background-color: rgb(192, 192, 192);
+}
+
+.options{
+	border-radius: 10px 10px 0px 0px;
+	border-width: 1px;
+	border-bottom: 0px;
+	border-style:solid;
+	border-color: rgb(122, 122, 122);
+	margin-bottom: 40px;
+}
+
+.head{
+	display: flex;
+}
+
+.options>select 
+{
+	color: rgb(151, 151, 151);
+	padding: 8px;
+	margin: 10px;
+	border-style:solid;
+	border-color: rgb(122, 122, 122);
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+.options>input{
+	outline: none;
+	color: rgb(151, 151, 151);
+	padding: 8px;
+	margin: 10px;
+	border-style:solid;
+	border-color: rgb(122, 122, 122);
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+.options>select:hover{
+	color: black;	
+}
+
+.options>input{
+	margin-right:10px ;
+}
+
+
+.butt{
+	margin-right: 5px;
+	padding: 9px;
+	border:none;
+	border-radius: 10px;
+	color: white;
+	background-color:rgb(61, 133, 115);
+	transition-duration: 0.4s;
+}
+
+.butt:hover{
+	color:rgb(61, 133, 115);
+	background-color: white;
+}
+
+.main{
+	border: solid;
+	border-width: 0px;
+	border-top-width: 1px;
+	border-color: rgb(204, 204, 204);
+}
+
+.list-cars{
+	margin: 30px;
 }
